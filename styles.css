@@ -1,0 +1,365 @@
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 0;
+}
+
+p {
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.dark-mode {
+  background-color: #1c1c26;
+  color: white;
+}
+
+#mainContent {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+}
+
+#darkMode {
+  width: 50%;
+  margin: auto;
+  text-align: end;
+}
+
+.darkmode-icon {
+  width: auto;
+  height: 2rem;
+  font-size: 10px;
+  filter: invert(0.5);
+}
+
+header figure img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+}
+
+#links ul {
+  display: flex;
+  list-style: none;
+  padding-bottom: 2rem;
+  width: 100%;
+  margin: auto;
+  justify-content: baseline;
+}
+
+#links li {
+  padding: 1rem;
+  font-size: 24px;
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+main section img {
+  width: 50%;
+  height: 17rem;
+  object-fit: fill;
+}
+
+footer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer ul {
+  width: 70%;
+  margin: auto;
+  list-style: none;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+footer ul li {
+  width: 30%;
+  font-size: 24px;
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+#downloadCV {
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.circleCheckSVG {
+  width: 20%;
+  height: 1rem;
+  font-size: 10px;
+  filter: invert(88%) sepia(21%) saturate(935%) hue-rotate(123deg)
+    brightness(85%) contrast(97%);
+}
+
+.icons {
+  width: 60%;
+  height: 2.5rem;
+  font-size: 10px;
+  cursor: pointer;
+  filter: invert(0.5);
+}
+
+/* Digital House */
+#digitalHouse {
+  display: flex;
+}
+
+#digitalHouse img {
+  width: 93%;
+  height: 25rem;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+}
+
+#digitalHouse div {
+  width: 93%;
+  height: 25rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* Modal */
+#modalStyles {
+  display: none;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  z-index: 10;
+  backdrop-filter: blur(1rem);
+  position: fixed;
+}
+
+.modalSectionClass {
+  background-color: white;
+}
+
+#modalSection {
+  width: 45%;
+  margin: auto;
+  height: 85%;
+  margin-top: 3.5%;
+  overflow-y: scroll;
+}
+
+.modalDark {
+  background-color: #14141c;
+}
+
+#modalStyles header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#modalStyles article {
+  padding: 1rem;
+}
+
+#modalStyles h1 {
+  border-bottom: 1px solid #bebebe;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Alumni Sans', sans-serif;
+  width: 50%;
+  font-weight: bold !important;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#modalStyles h2 {
+  border-bottom: 1px solid #bebebe;
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  text-align: right;
+  width: 50%;
+  cursor: pointer;
+  padding-bottom: 1rem;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#modalButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalLink {
+  font-family: 'Alumni Sans', sans-serif;
+  background-color: rgb(0, 222, 222);
+  color: white;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: .5rem;
+}
+
+.modalLinkSingle {
+  font-family: 'Alumni Sans', sans-serif;
+  background-color: rgb(0, 222, 222);
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: .5rem;
+}
+
+#modalTecnologies {
+  width: 80%;
+  padding-top: 2rem;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#modalTecnologies li {
+  width: 10rem;
+  display: flex;
+  height: 2.5rem;
+}
+
+#modalStyles li p {
+  margin: 0;
+}
+
+#modalImages img {
+  width: 50%;
+  height: 15rem;
+  padding: 0;
+  margin: 0;
+  object-fit: fill;
+}
+
+#modalImages {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  #mainContent {
+    width: 90%;
+  }
+  #modalSection {
+    width: 70%;
+    margin-top: 5.5%;
+  }
+}
+
+@media (max-width: 700px) {
+  #mainContent {
+    width: 90%;
+  }
+  main section img {
+    width: 100%;
+    height: 17rem;
+    object-fit: fill;
+  }
+  #digitalHouse {
+    display: block;
+  }
+  #digitalHouse img {
+    width: 100%;
+  }
+  #digitalHouse div {
+    height: 15rem;
+  }
+  footer {
+    margin-top: 0rem;
+    margin-bottom: 5rem;
+  }
+  footer ul {
+    width: 90%;
+    justify-content: baseline;
+  }
+  footer ul li {
+    width: 50%;
+  }
+  #darkMode {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  #modalSection {
+    width: 90%;
+    margin-top: 5.5%;
+  }
+  #modalImages img {
+    width: 100%;
+    height: 15rem;
+    padding: 0;
+    margin: 0;
+    object-fit: fill;
+  }
+  #modalImages {
+    width: 100%;
+  }
+  .modalLink {
+    font-size: 1.3rem;
+  }
+  .modalLinkSingle {
+    font-size: 1.3rem;
+  }
+  #modalTecnologies {
+    width: 100%;
+  }
+}
