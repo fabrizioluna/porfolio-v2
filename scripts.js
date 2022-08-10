@@ -13,7 +13,7 @@ const linkLinkedln =            document.getElementById('linkedlnLink');
 
 // On Click Social Media
 const onClickGithub =   linkGithub.addEventListener('click', () => window.open('https://github.com/fabrizioluna'))
-const onClickGmail =    linkGmail.addEventListener('click', () => window.open('mailto:alexfabrisiolunatoledo@gmail.com?Subject=¡Hola%20Fabrizio!'))
+const onClickGmail =    linkGmail.addEventListener('click', () => window.open('mailto:aflunatoledo@gmail.com?Subject=¡Hola%20Fabrizio!'))
 const onClickLinkedln = linkLinkedln.addEventListener('click', () => window.open('https://www.linkedin.com/in/fabrisio-luna/'))
 
 // Change theme
