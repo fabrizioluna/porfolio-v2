@@ -145,10 +145,11 @@ const projectArray = [
   {
     name: 'nftart',
     description:
-      'Proyecto realizado en grupo de cuatro personas para el bootcamp en Digital House. \
-       Trabajamos con una estructura MVC y un dashboard programado en React. \
-       Se utilizó Trello como tablero de trabajo, MySQL para guardado de datos, \
-       Y Express.js para una aplicación completa.',
+      'Proyecto colaborativo de cuatro personas para el bootcamp en Digital House. \
+      Aplicación web para la venta y compra de nfts. \
+       Trabajamos con una arquitectura MVC y un dashboard programado en React. \
+       Se utilizó Trello como tablero de trabajo, MySQL para guardado de datos \
+       y Express.js.',
     date: `Dic 2021 - Jun 2022`,
     tecnologies: [
       'Express',
@@ -170,7 +171,8 @@ const projectArray = [
     name: 'cheatsheet',
     description:
       'Proyecto personal de un cheatsheet para programadores. \
-       Trabajado unicamente con Next.js y MongoDB como base de datos. \
+       Trabajado unicamente con Next.js y MongoDB para la base de datos. \
+       Utilizando el ServerSide Rendering de Next y todo el potencial de React.\
        Te permite agregar, eliminar o editar secciones y categorias.  \
        También cuenta con sistema de autenticación.',
     date: `2021`,
@@ -236,7 +238,7 @@ const projectArray = [
   {
     name: 'enacment',
     description: 'Simple proyecto realizado con Angular para prueba tecnica. \
-     Realiza consultas a un proyecto de firebase de Google, guardado de datos y usuarios. \
+     Realiza consultas en firebase de Google, guardado de datos y usuarios. \
      Montado en ngX-Rocket de Angular y programado con Typescript.',
     date: 2022,
     tecnologies: ['Angular', 'Bootstrap', 'Firebase', 'Typescript'],
